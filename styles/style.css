@@ -1,0 +1,140 @@
+:root{
+    --body-bg-color: rgb(235, 217, 244);
+    --box-bg-color: rgb(255,255,255);
+    --head-bg-color:rgb(168, 166, 166);
+    --heading-fontWeight:400;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--body-bg-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        /* font-family: 'Rubik', sans-serif; */
+}
+
+h1 {
+    margin: 0;
+    font-weight: var(--heading-fontWeight);
+}
+
+h2 {
+    margin: 0;
+    font-weight: var(--heading-fontWeight);
+    display: inline-block;
+}
+
+.box {
+    background: var(--box-bg-color);
+    width: 50rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
+
+.header {
+    display: flex;
+    height: 165px;
+    width: 100%;
+}
+
+.header_Left {
+    width: 60%;
+    height: 90%;
+    line-height: 1;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.rest {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.header_Right {
+    width: 40%;
+    height: 90%;
+    align-items: center;
+}
+
+.header_Right img {
+    padding: 20px 10px 20px 160px;
+    image-rendering: crisp-edges;
+    height: 140px;
+    width: 110px;
+}
+
+.grey {
+    background: var(--head-bg-color);
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+}
+
+table {
+    border: 2px solid #000;
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #000;
+    padding: 0.4rem;
+}
+
+.skill_body {
+    width: 100%;
+    line-height: 2;
+}
+
+.LANG {
+    display: flex;
+}
+
+.LANG div:first-child {
+    width: 40%;
+    padding-left: 20px;
+}
+
+.LANG div:last-child {
+    width: 50%;
+}
+
+.LANG progress {
+    width: 90%;
+}
+
+.pers_body {
+    width: 70%;
+    margin: auto;
+}
+
+.p_detail {
+    display: flex;
+}
+
+.p_detail div:first-child {
+    width: 40%;
+}
+
+.p_detail div:last-child {
+    width: 60%
+}
+
+li{
+    list-style-type: circle;
+}
+
+.obj_Body>p{
+    padding: 0 20px;
+}
+.obj_Body>p,
+.other_Body li, .proj_title, .proj_desc {
+    text-align: justify;
+}
